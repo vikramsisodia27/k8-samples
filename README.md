@@ -11,5 +11,11 @@ kubectl get pods
 # describe the Pod
 kubectl describe pod myapp-pod
 
+Replication controller run multiple instances of single Pod, Replication controller replaced with replica set
+
+
+
+
+
 
 
