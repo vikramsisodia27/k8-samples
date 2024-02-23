@@ -23,6 +23,18 @@ kubectl get pods
 # get all objects
 kubectl get all
 
+# delete a pod
+kubectl delete pod pod-name
+
+note: the same way we can delete rc, deployment and service
+
+# describe a pod
+kubectl describe pod pod-name
+
+note: the same way we can describe rc, deployment and service
+
+
+
 
 
 
