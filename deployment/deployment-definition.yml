@@ -8,11 +8,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      type: myapp
+      app: myapp
   replicas: 2
   template:
     metadata:
-      name: nginx-2
+      name: nginx
       labels:
         app: myapp
     spec:
