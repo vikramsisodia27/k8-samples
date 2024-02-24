@@ -33,6 +33,8 @@ kubectl describe pod pod-name
 
 note: the same way we can describe rc, deployment and service
 
+# get service url of service
+minikube service service-name --url
 
 
 
