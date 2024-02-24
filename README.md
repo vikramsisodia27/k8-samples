@@ -6,6 +6,10 @@ Replication controller run multiple instances of single Pod, Replication control
 
 Deployment provide capability to update underlying instance, rolling update, undo change, pause and resume changes
 
+Ingress
+ - Ingress controller (nginx)
+ - Ingress resources
+
 # create a Pod
 kubectl create -f pod-definition.yml
 
